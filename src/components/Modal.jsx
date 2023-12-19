@@ -19,9 +19,7 @@ export default function(props) {
   const router = useRouter();
 
   useEffect(() => {
-    return () => {
-      onOpen();
-    };
+    onOpen();
   }, []);
 
   const onClose = () => {
