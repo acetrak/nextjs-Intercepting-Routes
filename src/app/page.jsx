@@ -9,6 +9,8 @@ export default function Home() {
         <Button as={Link} href="/posts/1" color="primary">Post 1</Button>
         <Button as={Link} href="/posts/2" color="primary">Post 2</Button>
         <Button as={Link} href="/posts/3" color="primary">Post 3</Button>
+        <Button as={Link} href="/setting" color="primary">setting</Button>
+
       </div>
     </main>
   );
